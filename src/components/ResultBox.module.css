@@ -1,0 +1,51 @@
+.resultContainer {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #3a3a3a;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.resultTitle {
+  text-align: center;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.resultList {
+  list-style: none;
+  padding: 0;
+}
+
+.resultItem {
+  background-color: #444;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resultItem strong {
+  color: #fff;
+}
+
+.resultItem span {
+  color: #ccc;
+  font-weight: bold;
+}
+
+.totalCost {
+  text-align: center;
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #222;
+  border-radius: 8px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #00e676; /* Yeşil renk */
+}
